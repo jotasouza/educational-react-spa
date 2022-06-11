@@ -18,6 +18,8 @@ export default createGlobalStyle`
     --background-button:  #17bf9e;
     --color-text-button: #fff;
     --color-icon: #17bf9e;
+    --color-search: #17bf9d;
+    --color-placeholder: black;
 }
 
 body{
