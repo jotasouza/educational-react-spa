@@ -21,8 +21,7 @@ const Hero = () => {
             </HeroContentDiv>
 
             <SearchDiv>
-              <input type="text" placeholder="Pesquisar" />
-              <button className="btn">Pesquisar</button>
+              <button className="btn">Conheça</button>
             </SearchDiv>
           </Col>
           <Col lg="6" md="6">
