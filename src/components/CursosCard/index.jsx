@@ -14,22 +14,22 @@ const CursosCard = (props) => {
 
         <div className=" d-flex justify-content-between align-items-center">
           <p className="licao d-flex align-items-center gap-1">
-            <i class="ri-book-open-line"></i> {licao} Lessons
+            <i class="ri-book-open-line"></i> {licao} Aulas
           </p>
 
           <p className="estudantes d-flex align-items-center gap-1">
-            <i class="ri-user-line"></i> {estudantes}K
+            <i class="ri-user-line"></i> {estudantes}Mil
           </p>
         </div>
 
         <div className=" d-flex justify-content-between align-items-center">
           <p className="avaliacao d-flex align-items-center gap-1">
-            <i class="ri-star-fill"></i> {avaliacao}K
+            <i class="ri-star-fill"></i> {avaliacao}Mil
           </p>
 
-          <p className="matricula d-flex align-items-center gap-1">
-            <a href="#ins">Inscreva-se</a>
-          </p>
+          <button className="btn d-flex align-items-center gap-1">
+            Inscreva-se
+          </button>
         </div>
       </div>
     </CursoItemDiv>
