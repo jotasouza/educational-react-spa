@@ -1,4 +1,4 @@
-import { Container, Rol, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import CountUp from "react-countup";
 import sobreImg from "../../assets/images/about-us.jpg";
 
@@ -8,7 +8,7 @@ const SobreNos = () => {
   return (
     <section>
       <Container>
-        <Rol>
+        <Row>
           <Col lg="6" md="6">
             <ImgDiv>
               <figure>
@@ -57,7 +57,7 @@ const SobreNos = () => {
               </div>
             </ConteudoDiv>
           </Col>
-        </Rol>
+        </Row>
       </Container>
     </section>
   );
