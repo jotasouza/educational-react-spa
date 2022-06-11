@@ -1,0 +1,14 @@
+.hero__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 260px;
+}
+
+.hero__blob {
+  fill: var(--first-color);
+}
+
+.hero__blob-img {
+  width: 360px;
+}

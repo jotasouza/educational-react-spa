@@ -5,8 +5,6 @@ export const HeaderContainer = styled.header`
   height: 80px;
   line-height: 80px;
   background: var(--background-color-nav);
-
-  z-index: 1000000;
 `;
 
 export const NavList = styled.ul`
