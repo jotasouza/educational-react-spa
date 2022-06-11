@@ -16,12 +16,12 @@ export const ConteudoDiv = styled.div`
 
 export const ContadorTitle = styled.p`
   font-size: 1rem;
-  color: #0a2b1e;
+  color: var(--color-title);
   font-weight: 500;
 `;
 
 export const ContadorSpan = styled.span`
   font-size: 2rem;
   font-weight: 600;
-  color: #0a2b1e;
+  color: var(--color-title);
 `;
