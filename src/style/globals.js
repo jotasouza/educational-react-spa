@@ -12,6 +12,7 @@ export default createGlobalStyle`
 
 :root{
     --background-color: #fff;
+    --background-color-nav: #e5e5e5;
     --color-title: #0a2b1e;
     --color-paragraph: #596b65;
     --background-button:  #17bf9e;

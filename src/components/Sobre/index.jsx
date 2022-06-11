@@ -29,29 +29,34 @@ const SobreNos = () => {
                 <div className="d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <ContadorSpan>
-                      <CountUp start={0} end={25} duration={2} suffix="K" />
+                      <CountUp start={0} end={5} duration={2} suffix="Mil" />
                     </ContadorSpan>
                     <ContadorTitle>Projetos completos</ContadorTitle>
                   </div>
                   <div className="single__counter">
                     <ContadorSpan>
-                      <CountUp start={0} end={12} duration={2} suffix="M" />
+                      <CountUp start={0} end={12} duration={2} suffix="Mil" />
                     </ContadorSpan>
-                    <ContadorTitle>Alunos ao redor do Mundo</ContadorTitle>
+                    <ContadorTitle>Alunos ao redor do mundo</ContadorTitle>
                   </div>
                 </div>
                 <div className=" d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <ContadorSpan>
-                      <CountUp start={0} end={95} duration={2} suffix="M" />
+                      <CountUp
+                        start={0}
+                        end={5}
+                        duration={2}
+                        suffix="Milhões"
+                      />
                     </ContadorSpan>
-                    <ContadorTitle>Ideias que receberam apoio</ContadorTitle>
+                    <ContadorTitle>Fundos arrecadados</ContadorTitle>
                   </div>
                   <div className="single__counter">
                     <ContadorSpan>
-                      <CountUp start={0} end={5} duration={2} suffix="K" />
+                      <CountUp start={0} end={2} duration={2} suffix="Mil" />
                     </ContadorSpan>
-                    <ContadorTitle>Categorias veiculadas</ContadorTitle>
+                    <ContadorTitle>Notícias veiculadas</ContadorTitle>
                   </div>
                 </div>
               </div>
