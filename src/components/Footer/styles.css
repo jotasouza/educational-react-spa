@@ -1,0 +1,9 @@
+.link__list .link__item {
+  background: transparent;
+}
+
+.link__list a {
+  text-decoration: none;
+  color: var(--color-title);
+  font-weight: 500;
+}
